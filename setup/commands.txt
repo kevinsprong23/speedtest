@@ -3,3 +3,5 @@ for i in {1..21}; do cat longcsv.csv longcsv.csv > longcsv2.csv && mv longcsv2.c
 
 echo 'Two driven jocks help fax my big quiz' > longtext.txt                                      
 for i in {1..20}; do cat longtext.txt longtext.txt > longtext2.txt && mv longtext2.txt longtext.txt; done
+
+chmod 755 *
