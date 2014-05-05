@@ -1,0 +1,5 @@
+echo '1,2,3,4,5,6,7,8,9,10' > longcsv.csv    
+for i in {1..21}; do cat longcsv.csv longcsv.csv > longcsv2.csv && mv longcsv2.csv longcsv.csv; done
+
+echo 'Two driven jocks help fax my big quiz' > longtext.txt                                      
+for i in {1..20}; do cat longtext.txt longtext.txt > longtext2.txt && mv longtext2.txt longtext.txt; done
