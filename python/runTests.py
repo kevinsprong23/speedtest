@@ -77,4 +77,18 @@ for x in tElapsed:
 fileOut.close()
 
 
+# object creation
+tElapsed = [0] * 10
+for i in range(0, 10):
+    tSt = time.time()
+    tests.classTest()
+    tElapsed[i] = time.time() - tSt
+
+filePathOut = "results/classTest.csv"
+fileOut = open(filePathOut, "w+")
+for x in tElapsed:
+    fileOut.write(str(x) + "\n")
+fileOut.close()
+
+
 

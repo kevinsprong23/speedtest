@@ -1,3 +1,7 @@
+class blankClass():
+    def __init__(self):
+        pass
+
 def arrayLoop():
     # create a large array
     x = [1] * 10000000; # a list times an integer N = repeat N times
@@ -31,4 +35,6 @@ def matrixMultiply(A, B):
     # A, B are numpy 2-D arrays
     C = dot(A, B)
 
-
+def classTest():
+    for i in range(10000):
+        bc = blankClass();
