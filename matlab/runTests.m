@@ -54,7 +54,7 @@ B = 3*ones(1000,1000);
 timeElapsed = zeros(10,1);
 for i = 1:10
     tSt = tic;
-    matrixMultiply;
+    matrixMultiply(A, B);
     timeElapsed(i) = toc(tSt);
 end
 
@@ -72,7 +72,7 @@ B = 3*ones(1000,1000);
 timeElapsed = zeros(10,1);
 for i = 1:10
     tSt = tic;
-    arrayMultiply;
+    arrayMultiply(A, B);
     timeElapsed(i) = toc(tSt);
 end
 
