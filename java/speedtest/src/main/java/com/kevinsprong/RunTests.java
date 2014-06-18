@@ -10,6 +10,7 @@ import org.apache.commons.math.linear.RealMatrix;
 public class RunTests {
     public static void main( String[] args ) {
     	
+    	// eww, a hard-coded absolute path
     	String dataDir = "C:/Users/ksprong/Documents/Personal/speedtest/data/";
     	
     	//---------------------------------------------------------------------
